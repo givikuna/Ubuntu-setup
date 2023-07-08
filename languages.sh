@@ -32,7 +32,9 @@ sudo snap install kotlin --classic --non-interactive
 curl -fsSL https://crystal-lang.org/install.sh | sudo bash
 
 # Julia
-wget https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.1-linux-x86_64.tar.gz
-tar zxvf julia-1.8.1-linux-x86_64.tar.gz
+sudo snap install julia --classic --non-interactive
+
+# Ruby
+sudo snap install ruby --classic --non-interactive
 
 cd Ubuntu-setup

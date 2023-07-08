@@ -19,7 +19,9 @@ shell_scripts = [
 if rebooted:
     for shell_script in shell_scripts:
         if shell_script in shell_scripts[:2]: continue
-        print(f"./{shell_script}.sh")
+        cmd = f"./{shell_script}.sh"
+        print(cmd)
+        subprocess.run(cmd.split())
 else:
     for shell_script in shell_scripts:
         cmd = f"sudo chmod +x ./{shell_script}.sh"
