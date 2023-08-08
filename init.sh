@@ -23,6 +23,6 @@ source ~/.bashrc
 nvm install --lts
 
 echo "System must be rebooted"
-echo "run ./setup2.sh after the reboot"
+echo "run ./setup.sh after the reboot"
 sleep 5
 reboot
