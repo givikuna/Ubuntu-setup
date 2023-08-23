@@ -16,6 +16,8 @@ sudo apt install gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 #### Snap
 sudo apt install snapd
+#### Pacstall
+sudo bash -c "$(curl -fsSL https://pacstall.dev/q/install)"
 #### NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.bashrc
