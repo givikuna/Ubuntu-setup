@@ -57,6 +57,16 @@ flatpak install flathub org.gnome.meld -y --noninteractive
 flatpak install flathub xyz.splashmapper.Splash -y --noninteractive
 flatpak install flathub org.gnome.Boxes -y --noninteractive
 sudo snap install tube-converter
+flatpak install flathub fr.free.qccrypt.Qccrypt
+flatpak install flathub me.ppvan.psequel
+flatpak install flathub com.opera.Opera
+flatpak install flathub org.stellarium.Stellarium
+flatpak install flathub org.octave.Octave
+flatpak install flathub de.uni_heidelberg.zah.GaiaSky
+flatpak install flathub com.usebottles.bottles
+pacstall -I balena-etcher-deb
+sudo snap install mspacman
+
 
 
 ### programming languages and other tools
