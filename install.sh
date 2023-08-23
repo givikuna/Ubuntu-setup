@@ -56,6 +56,7 @@ sudo snap install godot-4
 flatpak install flathub org.gnome.meld -y --noninteractive
 flatpak install flathub xyz.splashmapper.Splash -y --noninteractive
 flatpak install flathub org.gnome.Boxes -y --noninteractive
+sudo snap install tube-converter
 
 
 ### programming languages and other tools
