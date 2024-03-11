@@ -2,11 +2,9 @@ cd ~
 
 #### basic apps
 
-sudo snap install krita
 sudo snap install postman
 sudo snap install spotify
 sudo snap install gimp
-sudo snap install inkscape
 sudo snap install kdenlive
 sudo snap install gitkraken --classic
 sudo snap install vlc
@@ -35,9 +33,7 @@ sudo snap install discord
 sudo snap install chromium
 sudo snap install terminal-parrot
 sudo snap install freecad
-sudo snap install blender --classic
 flatpak install flathub com.mattjakeman.ExtensionManager --assumeyes
-flatpak install flathub com.usebottles.bottles --assumeyes
 flatpak install flathub com.obsproject.Studio --assumeyes
 flatpak install flathub com.github.unrud.VideoDownloader -y --noninteractive
 flatpak install flathub com.github.micahflee.torbrowser-launcher -y --noninteractive
@@ -54,18 +50,17 @@ flatpak install flathub com.github.finefindus.eyedropper -y --noninteractive
 flatpak install flathub com.jgraph.drawio.desktop -y --noninteractive
 sudo snap install godot-4
 flatpak install flathub org.gnome.meld -y --noninteractive
-flatpak install flathub xyz.splashmapper.Splash -y --noninteractive
 flatpak install flathub org.gnome.Boxes -y --noninteractive
 sudo snap install tube-converter
-flatpak install flathub fr.free.qccrypt.Qccrypt
-flatpak install flathub me.ppvan.psequel
-flatpak install flathub com.opera.Opera
-flatpak install flathub org.stellarium.Stellarium
-flatpak install flathub org.octave.Octave
-flatpak install flathub de.uni_heidelberg.zah.GaiaSky
-flatpak install flathub com.usebottles.bottles
-pacstall -I balena-etcher-deb
+flatpak install flathub fr.free.qccrypt.Qccrypt -y --noninteractive
+flatpak install flathub me.ppvan.psequel -y --noninteractive
+flatpak install flathub com.opera.Opera -y --noninteractive
+flatpak install flathub org.stellarium.Stellarium -y --noninteractive
+flatpak install flathub org.octave.Octave -y --noninteractive
+flatpak install flathub de.uni_heidelberg.zah.GaiaSky -y --noninteractive
+flatpak install flathub com.usebottles.bottles -y --noninteractive
 sudo snap install mspacman
+pacstall -I balena-etcher-deb
 
 
 
