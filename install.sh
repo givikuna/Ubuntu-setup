@@ -67,16 +67,19 @@ pacstall -I balena-etcher-deb
 ### programming languages and other tools
 
 # TypeScript
-sudo npm install -g typescript
+npm install -g typescript
 
 # CoffeeScript
-sudo npm install -g coffeescript
+npm install -g coffeescript
 
 # LiveScript
-sudo npm install -g livescript
+npm install -g livescript
 
 # PureScript
-sudo npm install -g purescript
+npm install -g purescript
+
+# ts-node
+npm install -g ts-node
 
 # Rust
 curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
@@ -126,3 +129,8 @@ cd ~
 # Starship
 curl -sS https://starship.rs/install.sh | sh
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
+
+
+# gnome-terminal styles
+curl -L https://raw.githubusercontent.com/catppuccin/gnome-terminal/v0.2.0/install.py | python3 -
+
