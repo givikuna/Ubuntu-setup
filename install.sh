@@ -99,6 +99,7 @@ sudo snap install julia --classic
 
 # Ruby
 sudo snap install ruby --classic
+sudo apt-get install -y irb
 
 # The Fuck
 sudo apt install python3-dev python3-pip python3-setuptools -y
