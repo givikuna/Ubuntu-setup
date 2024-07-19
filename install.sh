@@ -61,6 +61,7 @@ flatpak install flathub de.uni_heidelberg.zah.GaiaSky -y --noninteractive
 flatpak install flathub com.usebottles.bottles -y --noninteractive
 sudo snap install mspacman
 pacstall -I balena-etcher-deb
+sudo apt install neofetch htop -y
 
 
 
