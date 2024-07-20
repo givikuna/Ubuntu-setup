@@ -4,6 +4,7 @@ cd ~
 
 sudo snap install postman
 sudo snap install spotify
+sudo apt install gitk -y
 sudo snap install gimp
 sudo snap install kdenlive
 sudo snap install gitkraken --classic
