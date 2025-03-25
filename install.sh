@@ -80,6 +80,9 @@ npm install -g livescript
 # PureScript
 npm install -g purescript
 
+# Rescript
+npm install -g rescript
+
 # ts-node
 npm install -g ts-node
 
@@ -106,10 +109,6 @@ sudo snap install julia --classic
 sudo snap install ruby --classic
 sudo apt-get install -y irb
 
-# The Fuck
-sudo apt install python3-dev python3-pip python3-setuptools -y
-pip3 install thefuck --user
-
 # Crystal
 curl -fsSL https://crystal-lang.org/install.sh | sudo bash
 
@@ -119,6 +118,21 @@ sudo apt-get update -y
 sudo apt-get install libdart6-dev -y
 sudo apt-get install libdart6-collision-bullet-dev -y
 sudo apt-get install libdart6-all-dev -y
+
+# Common Lisp
+sudo apt-get install sbcl
+curl -o /tmp/ql.lisp http://beta.quicklisp.org/quicklisp.lisp
+sbcl --no-sysinit --no-userinit --load /tmp/ql.lisp \
+       --eval '(quicklisp-quickstart:install :path "~/.quicklisp")' \
+       --eval '(ql:add-to-init-file)' \
+       --quit
+sbcl --eval '(ql:quickload :quicklisp-slime-helper)' --quit
+
+## tools
+
+# The Fuck
+sudo apt install python3-dev python3-pip python3-setuptools -y
+pip3 install thefuck --user
 
 # Spiderfoot
 wget https://github.com/smicallef/spiderfoot/archive/v4.0.tar.gz
